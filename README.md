@@ -58,6 +58,67 @@ Like **Microservices** on the web
 
 
 
+Truffle framework 
+
+truffle is a suite of tools that allows us to develop smart contract, write test, deploy smart contract to the blockchain, gives development console, and allow us to develop client side application inside of our project.
+
+
+ganache
+
+
+MetaMask allows to connect to the blockchain with our personal account, and actually interact with the smart contract we developed.
+
+
+
+Ethereum blockchain is a network, we need special browser extension in order to connect to that network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
