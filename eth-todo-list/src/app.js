@@ -13,7 +13,7 @@ App = {
   loadWeb3: async () => {
     if (typeof web3 !== 'undefined') {
       App.web3Provider = window.ethereum
-      web3 = new Web3(window.ethereum)
+      web3 = new Web3(web3.currentProvider)
     } else {
       window.alert("Please connect to Metamask.")
     }
