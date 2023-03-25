@@ -12,7 +12,7 @@ App = {
   // https://medium.com/metamask/https-medium-com-metamask-breaking-change-injecting-web3-7722797916a8
   loadWeb3: async () => {
     if (typeof web3 !== 'undefined') {
-      App.web3Provider = window.ethereum
+      App.web3Provider = web3.currentProvider
       web3 = new Web3(web3.currentProvider)
     } else {
       window.alert("Please connect to Metamask.")
